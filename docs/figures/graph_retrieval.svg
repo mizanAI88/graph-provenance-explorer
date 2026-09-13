@@ -1,0 +1,62 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='420' viewBox='0 0 960 420'>
+<defs><marker id='arrow' markerWidth='10' markerHeight='10' refX='9' refY='3' orient='auto' markerUnits='strokeWidth'><path d='M0,0 L0,6 L9,3 z' fill='black'/></marker></defs>
+<rect x='0' y='0' width='960' height='420' fill='white'/>
+<text x='480.0' y='28' text-anchor='middle' font-size='16' font-weight='bold' font-family='Helvetica, Arial, sans-serif' fill='black'>graph-provenance-explorer: graph-neighbourhood retrieval with source paths</text>
+<rect x='20' y='60' width='150' height='70' rx='6' fill='white' stroke='black' stroke-width='1.5'/>
+<text x='95.0' y='92.0' text-anchor='middle' font-size='13' font-weight='bold' font-family='Helvetica, Arial, sans-serif' fill='black'>Question</text>
+<text x='95.0' y='108.0' text-anchor='middle' font-size='11' font-family='Helvetica, Arial, sans-serif' fill='black'>free text</text>
+<rect x='210' y='60' width='170' height='70' rx='6' fill='white' stroke='black' stroke-width='1.5'/>
+<text x='295.0' y='84.0' text-anchor='middle' font-size='13' font-weight='bold' font-family='Helvetica, Arial, sans-serif' fill='black'>BM25 seeds</text>
+<text x='295.0' y='100.0' text-anchor='middle' font-size='11' font-family='Helvetica, Arial, sans-serif' fill='black'>top seed_k passages</text>
+<text x='295.0' y='116.0' text-anchor='middle' font-size='11' font-family='Helvetica, Arial, sans-serif' fill='black'>in-repo lexical index</text>
+<rect x='420' y='60' width='190' height='70' rx='6' fill='white' stroke='black' stroke-width='1.5'/>
+<text x='515.0' y='84.0' text-anchor='middle' font-size='13' font-weight='bold' font-family='Helvetica, Arial, sans-serif' fill='black'>1-hop expansion</text>
+<text x='515.0' y='100.0' text-anchor='middle' font-size='11' font-family='Helvetica, Arial, sans-serif' fill='black'>typed edges: supports,</text>
+<text x='515.0' y='116.0' text-anchor='middle' font-size='11' font-family='Helvetica, Arial, sans-serif' fill='black'>refines, defines, cites, contradicts</text>
+<rect x='650' y='60' width='140' height='70' rx='6' fill='white' stroke='black' stroke-width='1.5'/>
+<text x='720.0' y='84.0' text-anchor='middle' font-size='13' font-weight='bold' font-family='Helvetica, Arial, sans-serif' fill='black'>Rerank</text>
+<text x='720.0' y='100.0' text-anchor='middle' font-size='11' font-family='Helvetica, Arial, sans-serif' fill='black'>lexical + mean</text>
+<text x='720.0' y='116.0' text-anchor='middle' font-size='11' font-family='Helvetica, Arial, sans-serif' fill='black'>edge weight</text>
+<rect x='830' y='60' width='110' height='70' rx='6' fill='white' stroke='black' stroke-width='1.5'/>
+<text x='885.0' y='92.0' text-anchor='middle' font-size='13' font-weight='bold' font-family='Helvetica, Arial, sans-serif' fill='black'>Renderer</text>
+<text x='885.0' y='108.0' text-anchor='middle' font-size='11' font-family='Helvetica, Arial, sans-serif' fill='black'>template</text>
+<line x1='170' y1='95' x2='208' y2='95' stroke='black' stroke-width='1.5' marker-end='url(#arrow)'/>
+<line x1='380' y1='95' x2='418' y2='95' stroke='black' stroke-width='1.5' marker-end='url(#arrow)'/>
+<line x1='610' y1='95' x2='648' y2='95' stroke='black' stroke-width='1.5' marker-end='url(#arrow)'/>
+<line x1='790' y1='95' x2='828' y2='95' stroke='black' stroke-width='1.5' marker-end='url(#arrow)'/>
+<text x='20' y='175' font-size='13' font-weight='bold' font-family='Helvetica, Arial, sans-serif' fill='black'>Example neighbourhood (authored synthetic corpus v1)</text>
+<rect x='40' y='200' width='130' height='46' rx='6' fill='white' stroke='black' stroke-width='1.5'/>
+<text x='105.0' y='220.0' text-anchor='middle' font-size='13' font-weight='bold' font-family='Helvetica, Arial, sans-serif' fill='black'>DOC-A1#p2</text>
+<text x='105.0' y='236.0' text-anchor='middle' font-size='11' font-family='Helvetica, Arial, sans-serif' fill='black'>seed, lexical</text>
+<rect x='260' y='200' width='130' height='46' rx='6' fill='white' stroke='black' stroke-width='1.5'/>
+<text x='325.0' y='220.0' text-anchor='middle' font-size='13' font-weight='bold' font-family='Helvetica, Arial, sans-serif' fill='black'>DOC-D1#p2</text>
+<text x='325.0' y='236.0' text-anchor='middle' font-size='11' font-family='Helvetica, Arial, sans-serif' fill='black'>expanded</text>
+<rect x='260' y='300' width='130' height='46' rx='6' fill='white' stroke='black' stroke-width='1.5' stroke-dasharray='6,4'/>
+<text x='325.0' y='320.0' text-anchor='middle' font-size='13' font-weight='bold' font-family='Helvetica, Arial, sans-serif' fill='black'>CON-MARLOW</text>
+<text x='325.0' y='336.0' text-anchor='middle' font-size='11' font-family='Helvetica, Arial, sans-serif' fill='black'>concept (bridge)</text>
+<rect x='40' y='300' width='130' height='46' rx='6' fill='white' stroke='black' stroke-width='1.5'/>
+<text x='105.0' y='320.0' text-anchor='middle' font-size='13' font-weight='bold' font-family='Helvetica, Arial, sans-serif' fill='black'>DOC-A1#p1</text>
+<text x='105.0' y='336.0' text-anchor='middle' font-size='11' font-family='Helvetica, Arial, sans-serif' fill='black'>seed, lexical</text>
+<rect x='480' y='300' width='130' height='46' rx='6' fill='white' stroke='black' stroke-width='1.5'/>
+<text x='545.0' y='320.0' text-anchor='middle' font-size='13' font-weight='bold' font-family='Helvetica, Arial, sans-serif' fill='black'>DOC-L1#p3</text>
+<text x='545.0' y='336.0' text-anchor='middle' font-size='11' font-family='Helvetica, Arial, sans-serif' fill='black'>expanded via concept</text>
+<line x1='170' y1='223' x2='258' y2='223' stroke='black' stroke-width='1.5' marker-end='url(#arrow)'/>
+<text x='214.0' y='217.0' text-anchor='middle' font-size='10' font-family='Helvetica, Arial, sans-serif' fill='black'>refines</text>
+<line x1='170' y1='323' x2='258' y2='323' stroke='black' stroke-width='1.5' marker-end='url(#arrow)'/>
+<text x='214.0' y='317.0' text-anchor='middle' font-size='10' font-family='Helvetica, Arial, sans-serif' fill='black'>defines</text>
+<line x1='390' y1='323' x2='478' y2='323' stroke='black' stroke-width='1.5' marker-end='url(#arrow)'/>
+<text x='434.0' y='317.0' text-anchor='middle' font-size='10' font-family='Helvetica, Arial, sans-serif' fill='black'>refines</text>
+<text x='40' y='385' font-size='11' font-family='Helvetica, Arial, sans-serif' fill='black'>Path recorded for DOC-L1#p3: (DOC-A1#p1, defines, CON-MARLOW), (DOC-L1#p3, refines, DOC-A1#p1); each step is an edge of the graph.</text>
+<rect x='660' y='190' width='280' height='60' rx='6' fill='white' stroke='black' stroke-width='1.5'/>
+<text x='800.0' y='209.0' text-anchor='middle' font-size='13' font-weight='bold' font-family='Helvetica, Arial, sans-serif' fill='black'>Answer</text>
+<text x='800.0' y='225.0' text-anchor='middle' font-size='11' font-family='Helvetica, Arial, sans-serif' fill='black'>verbatim passages with [DOC-A1#p2] citations</text>
+<text x='800.0' y='241.0' text-anchor='middle' font-size='11' font-family='Helvetica, Arial, sans-serif' fill='black'>every id asserted to resolve in corpus</text>
+<rect x='660' y='280' width='280' height='60' rx='6' fill='white' stroke='black' stroke-width='1.5'/>
+<text x='800.0' y='299.0' text-anchor='middle' font-size='13' font-weight='bold' font-family='Helvetica, Arial, sans-serif' fill='black'>Abstention</text>
+<text x='800.0' y='315.0' text-anchor='middle' font-size='11' font-family='Helvetica, Arial, sans-serif' fill='black'>top score below threshold:</text>
+<text x='800.0' y='331.0' text-anchor='middle' font-size='11' font-family='Helvetica, Arial, sans-serif' fill='black'>No supporting passage found in the approved corpus.</text>
+<line x1='885' y1='130' x2='885' y2='188' stroke='black' stroke-width='1.5' marker-end='url(#arrow)'/>
+<line x1='800' y1='250' x2='800' y2='278' stroke='black' stroke-width='1.5' marker-end='url(#arrow)'/>
+<text x='800.0' y='258.0' text-anchor='middle' font-size='10' font-family='Helvetica, Arial, sans-serif' fill='black'>else</text>
+<text x='940' y='408' text-anchor='end' font-size='10' font-family='Helvetica, Arial, sans-serif' fill='black'>Drawn by tools/render_figure.py. Fictional identifiers.</text>
+</svg>

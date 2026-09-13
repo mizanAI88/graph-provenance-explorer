@@ -1,0 +1,77 @@
+# Typed relations for the authored synthetic corpus v1.
+# Every edge carries a type from {supports, cites, defines, contradicts, refines}
+# and a provenance of authored-v1. Document-to-passage "contains" edges are not
+# listed here; the ingest step adds them with provenance ingest-structural-v1.
+schema_version: 1
+corpus: synthetic-corpus-v1
+statement: >-
+  Authored synthetic material. Fictional identifiers and invented workflow terms.
+  Not clinical guidance. Not derived from any patient, dataset, guideline, or person.
+
+concepts:
+  - {id: CON-MARLOW, label: Marlow Index}
+  - {id: CON-KESTREL, label: Kestrel score}
+  - {id: CON-THORNBURY, label: Thornbury ladder}
+  - {id: CON-BRINDLE, label: Brindle flag}
+  - {id: CON-WREN, label: Wren ledger}
+  - {id: CON-HALDEN, label: Halden tier}
+
+assertions:
+  - {id: AST-01, text: A summary line without a Wren ledger entry is not releasable.}
+  - {id: AST-02, text: The recomputation interval of the Kestrel score is disputed between two notes.}
+  - {id: AST-03, text: The Marlow Index does not override an open Brindle flag.}
+  - {id: AST-04, text: Sable checkpoint sign-off requires Halden tier two or higher for evidence passages.}
+
+sources:
+  - {id: SRC-01, label: Fictional Harrowgate working note on unsupported lines}
+  - {id: SRC-02, label: Fictional Pellam committee minute on release gates}
+  - {id: SRC-03, label: Fictional Orrin desk memorandum on audit reporting}
+
+edges:
+  # defines: the passage that introduces a concept
+  - {source: "DOC-A1#p1", target: CON-MARLOW, type: defines, provenance: authored-v1}
+  - {source: "DOC-B1#p1", target: CON-KESTREL, type: defines, provenance: authored-v1}
+  - {source: "DOC-C1#p1", target: CON-THORNBURY, type: defines, provenance: authored-v1}
+  - {source: "DOC-E1#p1", target: CON-BRINDLE, type: defines, provenance: authored-v1}
+  - {source: "DOC-H1#p1", target: CON-WREN, type: defines, provenance: authored-v1}
+  - {source: "DOC-L1#p1", target: CON-HALDEN, type: defines, provenance: authored-v1}
+
+  # cites: passage to source, and passage to passage where one note cites another
+  - {source: "DOC-B1#p3", target: SRC-01, type: cites, provenance: authored-v1}
+  - {source: "DOC-G1#p3", target: SRC-02, type: cites, provenance: authored-v1}
+  - {source: "DOC-K1#p3", target: SRC-03, type: cites, provenance: authored-v1}
+  - {source: "DOC-A1#p3", target: "DOC-E1#p1", type: cites, provenance: authored-v1}
+  - {source: "DOC-D1#p2", target: "DOC-A1#p2", type: cites, provenance: authored-v1}
+  - {source: "DOC-F1#p1", target: "DOC-A1#p1", type: cites, provenance: authored-v1}
+  - {source: "DOC-K1#p1", target: "DOC-B1#p1", type: cites, provenance: authored-v1}
+
+  # supports: passage to assertion, and passage to passage
+  - {source: "DOC-H1#p3", target: AST-01, type: supports, provenance: authored-v1}
+  - {source: "DOC-G1#p1", target: AST-01, type: supports, provenance: authored-v1}
+  - {source: "DOC-B1#p2", target: AST-02, type: supports, provenance: authored-v1}
+  - {source: "DOC-E1#p3", target: AST-02, type: supports, provenance: authored-v1}
+  - {source: "DOC-A1#p3", target: AST-03, type: supports, provenance: authored-v1}
+  - {source: "DOC-E1#p2", target: AST-03, type: supports, provenance: authored-v1}
+  - {source: "DOC-G1#p2", target: AST-04, type: supports, provenance: authored-v1}
+  - {source: "DOC-L1#p3", target: AST-04, type: supports, provenance: authored-v1}
+  - {source: "DOC-D1#p3", target: "DOC-E1#p2", type: supports, provenance: authored-v1}
+  - {source: "DOC-I1#p2", target: "DOC-D1#p1", type: supports, provenance: authored-v1}
+  - {source: "DOC-J1#p3", target: "DOC-E1#p2", type: supports, provenance: authored-v1}
+  - {source: "DOC-K1#p2", target: "DOC-G1#p1", type: supports, provenance: authored-v1}
+  - {source: "DOC-L1#p2", target: "DOC-J1#p2", type: supports, provenance: authored-v1}
+  - {source: "DOC-C1#p3", target: "DOC-J1#p1", type: supports, provenance: authored-v1}
+
+  # contradicts: the one authored disagreement in the corpus (four vs six cycles)
+  - {source: "DOC-E1#p3", target: "DOC-B1#p2", type: contradicts, provenance: authored-v1}
+
+  # refines: a passage that narrows or extends another
+  - {source: "DOC-A1#p2", target: "DOC-D1#p2", type: refines, provenance: authored-v1}
+  - {source: "DOC-C1#p2", target: "DOC-D1#p1", type: refines, provenance: authored-v1}
+  - {source: "DOC-F1#p2", target: "DOC-D1#p3", type: refines, provenance: authored-v1}
+  - {source: "DOC-H1#p2", target: "DOC-H1#p1", type: refines, provenance: authored-v1}
+  - {source: "DOC-I1#p3", target: "DOC-I1#p1", type: refines, provenance: authored-v1}
+  - {source: "DOC-L1#p3", target: "DOC-A1#p1", type: refines, provenance: authored-v1}
+  - {source: "DOC-G1#p2", target: "DOC-L1#p1", type: refines, provenance: authored-v1}
+  - {source: "DOC-J1#p2", target: "DOC-C1#p1", type: refines, provenance: authored-v1}
+  - {source: "DOC-J1#p3", target: "DOC-C1#p3", type: refines, provenance: authored-v1}
+  - {source: "DOC-F1#p3", target: "DOC-G1#p3", type: refines, provenance: authored-v1}

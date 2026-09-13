@@ -1,0 +1,1471 @@
+{
+  "schema_version": 1,
+  "corpus": {
+    "root": "examples/corpus/v1",
+    "statement": "Authored synthetic material. Fictional identifiers and invented workflow terms. Not clinical guidance. Not derived from any patient, dataset, guideline, or person.",
+    "documents": [
+      {
+        "id": "DOC-A1",
+        "title": "Protocol for the fictional Marlow Index",
+        "file": "DOC-A1.md"
+      },
+      {
+        "id": "DOC-B1",
+        "title": "Handling of the invented Kestrel score",
+        "file": "DOC-B1.md"
+      },
+      {
+        "id": "DOC-C1",
+        "title": "The Thornbury ladder for disputed summary lines",
+        "file": "DOC-C1.md"
+      },
+      {
+        "id": "DOC-D1",
+        "title": "The Osprey window",
+        "file": "DOC-D1.md"
+      },
+      {
+        "id": "DOC-E1",
+        "title": "The Brindle flag",
+        "file": "DOC-E1.md"
+      },
+      {
+        "id": "DOC-F1",
+        "title": "The Quillon handoff",
+        "file": "DOC-F1.md"
+      },
+      {
+        "id": "DOC-G1",
+        "title": "The Sable checkpoint",
+        "file": "DOC-G1.md"
+      },
+      {
+        "id": "DOC-H1",
+        "title": "The Wren ledger",
+        "file": "DOC-H1.md"
+      },
+      {
+        "id": "DOC-I1",
+        "title": "The Ferris loop",
+        "file": "DOC-I1.md"
+      },
+      {
+        "id": "DOC-J1",
+        "title": "The Lantern review",
+        "file": "DOC-J1.md"
+      },
+      {
+        "id": "DOC-K1",
+        "title": "The Corvid audit",
+        "file": "DOC-K1.md"
+      },
+      {
+        "id": "DOC-L1",
+        "title": "The Halden tier of source reliability",
+        "file": "DOC-L1.md"
+      }
+    ]
+  },
+  "node_types": [
+    "document",
+    "passage",
+    "concept",
+    "assertion",
+    "source"
+  ],
+  "edge_types": [
+    "cites",
+    "contains",
+    "contradicts",
+    "defines",
+    "refines",
+    "supports"
+  ],
+  "nodes": [
+    {
+      "id": "AST-01",
+      "type": "assertion",
+      "label": "A summary line without a Wren ledger entry is not releasable.",
+      "doc": null,
+      "x": -0.739002,
+      "y": 0.509881
+    },
+    {
+      "id": "AST-02",
+      "type": "assertion",
+      "label": "The recomputation interval of the Kestrel score is disputed between two notes.",
+      "doc": null,
+      "x": -0.128346,
+      "y": 0.855033
+    },
+    {
+      "id": "AST-03",
+      "type": "assertion",
+      "label": "The Marlow Index does not override an open Brindle flag.",
+      "doc": null,
+      "x": 1.0,
+      "y": 0.059648
+    },
+    {
+      "id": "AST-04",
+      "type": "assertion",
+      "label": "Sable checkpoint sign-off requires Halden tier two or higher for evidence passages.",
+      "doc": null,
+      "x": 0.214362,
+      "y": -0.948782
+    },
+    {
+      "id": "CON-BRINDLE",
+      "type": "concept",
+      "label": "Brindle flag",
+      "doc": null,
+      "x": -0.846504,
+      "y": -0.018832
+    },
+    {
+      "id": "CON-HALDEN",
+      "type": "concept",
+      "label": "Halden tier",
+      "doc": null,
+      "x": 0.780023,
+      "y": 0.535143
+    },
+    {
+      "id": "CON-KESTREL",
+      "type": "concept",
+      "label": "Kestrel score",
+      "doc": null,
+      "x": -0.09281,
+      "y": -0.954305
+    },
+    {
+      "id": "CON-MARLOW",
+      "type": "concept",
+      "label": "Marlow Index",
+      "doc": null,
+      "x": -0.439549,
+      "y": 0.783977
+    },
+    {
+      "id": "CON-THORNBURY",
+      "type": "concept",
+      "label": "Thornbury ladder",
+      "doc": null,
+      "x": -0.801497,
+      "y": -0.346324
+    },
+    {
+      "id": "CON-WREN",
+      "type": "concept",
+      "label": "Wren ledger",
+      "doc": null,
+      "x": 0.82377,
+      "y": -0.621678
+    },
+    {
+      "id": "DOC-A1",
+      "type": "document",
+      "label": "Protocol for the fictional Marlow Index",
+      "doc": "DOC-A1",
+      "x": 0.201728,
+      "y": 0.230727
+    },
+    {
+      "id": "DOC-A1#p1",
+      "type": "passage",
+      "label": "DOC-A1#p1",
+      "doc": "DOC-A1",
+      "x": -0.409535,
+      "y": 0.738479
+    },
+    {
+      "id": "DOC-A1#p2",
+      "type": "passage",
+      "label": "DOC-A1#p2",
+      "doc": "DOC-A1",
+      "x": 0.84886,
+      "y": -0.21874
+    },
+    {
+      "id": "DOC-A1#p3",
+      "type": "passage",
+      "label": "DOC-A1#p3",
+      "doc": "DOC-A1",
+      "x": 0.09687,
+      "y": 0.020928
+    },
+    {
+      "id": "DOC-B1",
+      "type": "document",
+      "label": "Handling of the invented Kestrel score",
+      "doc": "DOC-B1",
+      "x": -0.227131,
+      "y": -0.117277
+    },
+    {
+      "id": "DOC-B1#p1",
+      "type": "passage",
+      "label": "DOC-B1#p1",
+      "doc": "DOC-B1",
+      "x": -0.083947,
+      "y": -0.877793
+    },
+    {
+      "id": "DOC-B1#p2",
+      "type": "passage",
+      "label": "DOC-B1#p2",
+      "doc": "DOC-B1",
+      "x": -0.139249,
+      "y": 0.811491
+    },
+    {
+      "id": "DOC-B1#p3",
+      "type": "passage",
+      "label": "DOC-B1#p3",
+      "doc": "DOC-B1",
+      "x": -0.558849,
+      "y": -0.594992
+    },
+    {
+      "id": "DOC-C1",
+      "type": "document",
+      "label": "The Thornbury ladder for disputed summary lines",
+      "doc": "DOC-C1",
+      "x": -0.308654,
+      "y": 0.018509
+    },
+    {
+      "id": "DOC-C1#p1",
+      "type": "passage",
+      "label": "DOC-C1#p1",
+      "doc": "DOC-C1",
+      "x": -0.752187,
+      "y": -0.325447
+    },
+    {
+      "id": "DOC-C1#p2",
+      "type": "passage",
+      "label": "DOC-C1#p2",
+      "doc": "DOC-C1",
+      "x": 0.104689,
+      "y": 0.811326
+    },
+    {
+      "id": "DOC-C1#p3",
+      "type": "passage",
+      "label": "DOC-C1#p3",
+      "doc": "DOC-C1",
+      "x": -0.474492,
+      "y": -0.690645
+    },
+    {
+      "id": "DOC-D1",
+      "type": "document",
+      "label": "The Osprey window",
+      "doc": "DOC-D1",
+      "x": 0.517441,
+      "y": 0.311672
+    },
+    {
+      "id": "DOC-D1#p1",
+      "type": "passage",
+      "label": "DOC-D1#p1",
+      "doc": "DOC-D1",
+      "x": 0.126259,
+      "y": 0.904571
+    },
+    {
+      "id": "DOC-D1#p2",
+      "type": "passage",
+      "label": "DOC-D1#p2",
+      "doc": "DOC-D1",
+      "x": 0.823935,
+      "y": -0.210612
+    },
+    {
+      "id": "DOC-D1#p3",
+      "type": "passage",
+      "label": "DOC-D1#p3",
+      "doc": "DOC-D1",
+      "x": 0.76514,
+      "y": 0.031685
+    },
+    {
+      "id": "DOC-E1",
+      "type": "document",
+      "label": "The Brindle flag",
+      "doc": "DOC-E1",
+      "x": -0.004406,
+      "y": 0.222069
+    },
+    {
+      "id": "DOC-E1#p1",
+      "type": "passage",
+      "label": "DOC-E1#p1",
+      "doc": "DOC-E1",
+      "x": -0.806368,
+      "y": -0.017601
+    },
+    {
+      "id": "DOC-E1#p2",
+      "type": "passage",
+      "label": "DOC-E1#p2",
+      "doc": "DOC-E1",
+      "x": 0.846655,
+      "y": 0.040573
+    },
+    {
+      "id": "DOC-E1#p3",
+      "type": "passage",
+      "label": "DOC-E1#p3",
+      "doc": "DOC-E1",
+      "x": -0.119985,
+      "y": 0.815171
+    },
+    {
+      "id": "DOC-F1",
+      "type": "document",
+      "label": "The Quillon handoff",
+      "doc": "DOC-F1",
+      "x": 0.174499,
+      "y": 0.010746
+    },
+    {
+      "id": "DOC-F1#p1",
+      "type": "passage",
+      "label": "DOC-F1#p1",
+      "doc": "DOC-F1",
+      "x": -0.378971,
+      "y": 0.692516
+    },
+    {
+      "id": "DOC-F1#p2",
+      "type": "passage",
+      "label": "DOC-F1#p2",
+      "doc": "DOC-F1",
+      "x": 0.692334,
+      "y": 0.0248
+    },
+    {
+      "id": "DOC-F1#p3",
+      "type": "passage",
+      "label": "DOC-F1#p3",
+      "doc": "DOC-F1",
+      "x": 0.445374,
+      "y": -0.744855
+    },
+    {
+      "id": "DOC-G1",
+      "type": "document",
+      "label": "The Sable checkpoint",
+      "doc": "DOC-G1",
+      "x": 0.022099,
+      "y": -0.178565
+    },
+    {
+      "id": "DOC-G1#p1",
+      "type": "passage",
+      "label": "DOC-G1#p1",
+      "doc": "DOC-G1",
+      "x": -0.596445,
+      "y": 0.408758
+    },
+    {
+      "id": "DOC-G1#p2",
+      "type": "passage",
+      "label": "DOC-G1#p2",
+      "doc": "DOC-G1",
+      "x": 0.444864,
+      "y": -0.238265
+    },
+    {
+      "id": "DOC-G1#p3",
+      "type": "passage",
+      "label": "DOC-G1#p3",
+      "doc": "DOC-G1",
+      "x": 0.47439,
+      "y": -0.797961
+    },
+    {
+      "id": "DOC-H1",
+      "type": "document",
+      "label": "The Wren ledger",
+      "doc": "DOC-H1",
+      "x": 0.122198,
+      "y": -0.115033
+    },
+    {
+      "id": "DOC-H1#p1",
+      "type": "passage",
+      "label": "DOC-H1#p1",
+      "doc": "DOC-H1",
+      "x": 0.731086,
+      "y": -0.556188
+    },
+    {
+      "id": "DOC-H1#p2",
+      "type": "passage",
+      "label": "DOC-H1#p2",
+      "doc": "DOC-H1",
+      "x": 0.659901,
+      "y": -0.506631
+    },
+    {
+      "id": "DOC-H1#p3",
+      "type": "passage",
+      "label": "DOC-H1#p3",
+      "doc": "DOC-H1",
+      "x": -0.690149,
+      "y": 0.474828
+    },
+    {
+      "id": "DOC-I1",
+      "type": "document",
+      "label": "The Ferris loop",
+      "doc": "DOC-I1",
+      "x": 0.376872,
+      "y": 0.760119
+    },
+    {
+      "id": "DOC-I1#p1",
+      "type": "passage",
+      "label": "DOC-I1#p1",
+      "doc": "DOC-I1",
+      "x": 0.556299,
+      "y": 0.680901
+    },
+    {
+      "id": "DOC-I1#p2",
+      "type": "passage",
+      "label": "DOC-I1#p2",
+      "doc": "DOC-I1",
+      "x": 0.114074,
+      "y": 0.853204
+    },
+    {
+      "id": "DOC-I1#p3",
+      "type": "passage",
+      "label": "DOC-I1#p3",
+      "doc": "DOC-I1",
+      "x": 0.568416,
+      "y": 0.706532
+    },
+    {
+      "id": "DOC-J1",
+      "type": "document",
+      "label": "The Lantern review",
+      "doc": "DOC-J1",
+      "x": -0.285738,
+      "y": -0.418233
+    },
+    {
+      "id": "DOC-J1#p1",
+      "type": "passage",
+      "label": "DOC-J1#p1",
+      "doc": "DOC-J1",
+      "x": -0.502165,
+      "y": -0.694432
+    },
+    {
+      "id": "DOC-J1#p2",
+      "type": "passage",
+      "label": "DOC-J1#p2",
+      "doc": "DOC-J1",
+      "x": -0.664191,
+      "y": -0.288664
+    },
+    {
+      "id": "DOC-J1#p3",
+      "type": "passage",
+      "label": "DOC-J1#p3",
+      "doc": "DOC-J1",
+      "x": 0.186221,
+      "y": -0.32506
+    },
+    {
+      "id": "DOC-K1",
+      "type": "document",
+      "label": "The Corvid audit",
+      "doc": "DOC-K1",
+      "x": -0.40215,
+      "y": -0.170131
+    },
+    {
+      "id": "DOC-K1#p1",
+      "type": "passage",
+      "label": "DOC-K1#p1",
+      "doc": "DOC-K1",
+      "x": -0.078056,
+      "y": -0.831028
+    },
+    {
+      "id": "DOC-K1#p2",
+      "type": "passage",
+      "label": "DOC-K1#p2",
+      "doc": "DOC-K1",
+      "x": -0.531707,
+      "y": 0.363948
+    },
+    {
+      "id": "DOC-K1#p3",
+      "type": "passage",
+      "label": "DOC-K1#p3",
+      "doc": "DOC-K1",
+      "x": -0.733653,
+      "y": 0.211262
+    },
+    {
+      "id": "DOC-L1",
+      "type": "document",
+      "label": "The Halden tier of source reliability",
+      "doc": "DOC-L1",
+      "x": 0.040055,
+      "y": 0.08619
+    },
+    {
+      "id": "DOC-L1#p1",
+      "type": "passage",
+      "label": "DOC-L1#p1",
+      "doc": "DOC-L1",
+      "x": 0.675472,
+      "y": 0.472094
+    },
+    {
+      "id": "DOC-L1#p2",
+      "type": "passage",
+      "label": "DOC-L1#p2",
+      "doc": "DOC-L1",
+      "x": -0.580281,
+      "y": -0.255048
+    },
+    {
+      "id": "DOC-L1#p3",
+      "type": "passage",
+      "label": "DOC-L1#p3",
+      "doc": "DOC-L1",
+      "x": -0.097629,
+      "y": -0.105018
+    },
+    {
+      "id": "SRC-01",
+      "type": "source",
+      "label": "Fictional Harrowgate working note on unsupported lines",
+      "doc": null,
+      "x": -0.63809,
+      "y": -0.66735
+    },
+    {
+      "id": "SRC-02",
+      "type": "source",
+      "label": "Fictional Pellam committee minute on release gates",
+      "doc": null,
+      "x": 0.500128,
+      "y": -0.845733
+    },
+    {
+      "id": "SRC-03",
+      "type": "source",
+      "label": "Fictional Orrin desk memorandum on audit reporting",
+      "doc": null,
+      "x": -0.822278,
+      "y": 0.234439
+    }
+  ],
+  "edges": [
+    {
+      "source": "DOC-A1",
+      "target": "DOC-A1#p1",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-A1",
+      "target": "DOC-A1#p2",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-A1",
+      "target": "DOC-A1#p3",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-A1#p1",
+      "target": "CON-MARLOW",
+      "type": "defines",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-A1#p2",
+      "target": "DOC-D1#p2",
+      "type": "refines",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-A1#p3",
+      "target": "AST-03",
+      "type": "supports",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-A1#p3",
+      "target": "DOC-E1#p1",
+      "type": "cites",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-B1",
+      "target": "DOC-B1#p1",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-B1",
+      "target": "DOC-B1#p2",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-B1",
+      "target": "DOC-B1#p3",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-B1#p1",
+      "target": "CON-KESTREL",
+      "type": "defines",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-B1#p2",
+      "target": "AST-02",
+      "type": "supports",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-B1#p3",
+      "target": "SRC-01",
+      "type": "cites",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-C1",
+      "target": "DOC-C1#p1",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-C1",
+      "target": "DOC-C1#p2",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-C1",
+      "target": "DOC-C1#p3",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-C1#p1",
+      "target": "CON-THORNBURY",
+      "type": "defines",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-C1#p2",
+      "target": "DOC-D1#p1",
+      "type": "refines",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-C1#p3",
+      "target": "DOC-J1#p1",
+      "type": "supports",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-D1",
+      "target": "DOC-D1#p1",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-D1",
+      "target": "DOC-D1#p2",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-D1",
+      "target": "DOC-D1#p3",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-D1#p2",
+      "target": "DOC-A1#p2",
+      "type": "cites",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-D1#p3",
+      "target": "DOC-E1#p2",
+      "type": "supports",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-E1",
+      "target": "DOC-E1#p1",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-E1",
+      "target": "DOC-E1#p2",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-E1",
+      "target": "DOC-E1#p3",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-E1#p1",
+      "target": "CON-BRINDLE",
+      "type": "defines",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-E1#p2",
+      "target": "AST-03",
+      "type": "supports",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-E1#p3",
+      "target": "AST-02",
+      "type": "supports",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-E1#p3",
+      "target": "DOC-B1#p2",
+      "type": "contradicts",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-F1",
+      "target": "DOC-F1#p1",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-F1",
+      "target": "DOC-F1#p2",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-F1",
+      "target": "DOC-F1#p3",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-F1#p1",
+      "target": "DOC-A1#p1",
+      "type": "cites",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-F1#p2",
+      "target": "DOC-D1#p3",
+      "type": "refines",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-F1#p3",
+      "target": "DOC-G1#p3",
+      "type": "refines",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-G1",
+      "target": "DOC-G1#p1",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-G1",
+      "target": "DOC-G1#p2",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-G1",
+      "target": "DOC-G1#p3",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-G1#p1",
+      "target": "AST-01",
+      "type": "supports",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-G1#p2",
+      "target": "AST-04",
+      "type": "supports",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-G1#p2",
+      "target": "DOC-L1#p1",
+      "type": "refines",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-G1#p3",
+      "target": "SRC-02",
+      "type": "cites",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-H1",
+      "target": "DOC-H1#p1",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-H1",
+      "target": "DOC-H1#p2",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-H1",
+      "target": "DOC-H1#p3",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-H1#p1",
+      "target": "CON-WREN",
+      "type": "defines",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-H1#p2",
+      "target": "DOC-H1#p1",
+      "type": "refines",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-H1#p3",
+      "target": "AST-01",
+      "type": "supports",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-I1",
+      "target": "DOC-I1#p1",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-I1",
+      "target": "DOC-I1#p2",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-I1",
+      "target": "DOC-I1#p3",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-I1#p2",
+      "target": "DOC-D1#p1",
+      "type": "supports",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-I1#p3",
+      "target": "DOC-I1#p1",
+      "type": "refines",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-J1",
+      "target": "DOC-J1#p1",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-J1",
+      "target": "DOC-J1#p2",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-J1",
+      "target": "DOC-J1#p3",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-J1#p2",
+      "target": "DOC-C1#p1",
+      "type": "refines",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-J1#p3",
+      "target": "DOC-C1#p3",
+      "type": "refines",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-J1#p3",
+      "target": "DOC-E1#p2",
+      "type": "supports",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-K1",
+      "target": "DOC-K1#p1",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-K1",
+      "target": "DOC-K1#p2",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-K1",
+      "target": "DOC-K1#p3",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-K1#p1",
+      "target": "DOC-B1#p1",
+      "type": "cites",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-K1#p2",
+      "target": "DOC-G1#p1",
+      "type": "supports",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-K1#p3",
+      "target": "SRC-03",
+      "type": "cites",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-L1",
+      "target": "DOC-L1#p1",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-L1",
+      "target": "DOC-L1#p2",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-L1",
+      "target": "DOC-L1#p3",
+      "type": "contains",
+      "provenance": "ingest-structural-v1"
+    },
+    {
+      "source": "DOC-L1#p1",
+      "target": "CON-HALDEN",
+      "type": "defines",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-L1#p2",
+      "target": "DOC-J1#p2",
+      "type": "supports",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-L1#p3",
+      "target": "AST-04",
+      "type": "supports",
+      "provenance": "authored-v1"
+    },
+    {
+      "source": "DOC-L1#p3",
+      "target": "DOC-A1#p1",
+      "type": "refines",
+      "provenance": "authored-v1"
+    }
+  ],
+  "layout": {
+    "AST-01": [
+      -0.739002,
+      0.509881
+    ],
+    "AST-02": [
+      -0.128346,
+      0.855033
+    ],
+    "AST-03": [
+      1.0,
+      0.059648
+    ],
+    "AST-04": [
+      0.214362,
+      -0.948782
+    ],
+    "CON-BRINDLE": [
+      -0.846504,
+      -0.018832
+    ],
+    "CON-HALDEN": [
+      0.780023,
+      0.535143
+    ],
+    "CON-KESTREL": [
+      -0.09281,
+      -0.954305
+    ],
+    "CON-MARLOW": [
+      -0.439549,
+      0.783977
+    ],
+    "CON-THORNBURY": [
+      -0.801497,
+      -0.346324
+    ],
+    "CON-WREN": [
+      0.82377,
+      -0.621678
+    ],
+    "DOC-A1": [
+      0.201728,
+      0.230727
+    ],
+    "DOC-A1#p1": [
+      -0.409535,
+      0.738479
+    ],
+    "DOC-A1#p2": [
+      0.84886,
+      -0.21874
+    ],
+    "DOC-A1#p3": [
+      0.09687,
+      0.020928
+    ],
+    "DOC-B1": [
+      -0.227131,
+      -0.117277
+    ],
+    "DOC-B1#p1": [
+      -0.083947,
+      -0.877793
+    ],
+    "DOC-B1#p2": [
+      -0.139249,
+      0.811491
+    ],
+    "DOC-B1#p3": [
+      -0.558849,
+      -0.594992
+    ],
+    "DOC-C1": [
+      -0.308654,
+      0.018509
+    ],
+    "DOC-C1#p1": [
+      -0.752187,
+      -0.325447
+    ],
+    "DOC-C1#p2": [
+      0.104689,
+      0.811326
+    ],
+    "DOC-C1#p3": [
+      -0.474492,
+      -0.690645
+    ],
+    "DOC-D1": [
+      0.517441,
+      0.311672
+    ],
+    "DOC-D1#p1": [
+      0.126259,
+      0.904571
+    ],
+    "DOC-D1#p2": [
+      0.823935,
+      -0.210612
+    ],
+    "DOC-D1#p3": [
+      0.76514,
+      0.031685
+    ],
+    "DOC-E1": [
+      -0.004406,
+      0.222069
+    ],
+    "DOC-E1#p1": [
+      -0.806368,
+      -0.017601
+    ],
+    "DOC-E1#p2": [
+      0.846655,
+      0.040573
+    ],
+    "DOC-E1#p3": [
+      -0.119985,
+      0.815171
+    ],
+    "DOC-F1": [
+      0.174499,
+      0.010746
+    ],
+    "DOC-F1#p1": [
+      -0.378971,
+      0.692516
+    ],
+    "DOC-F1#p2": [
+      0.692334,
+      0.0248
+    ],
+    "DOC-F1#p3": [
+      0.445374,
+      -0.744855
+    ],
+    "DOC-G1": [
+      0.022099,
+      -0.178565
+    ],
+    "DOC-G1#p1": [
+      -0.596445,
+      0.408758
+    ],
+    "DOC-G1#p2": [
+      0.444864,
+      -0.238265
+    ],
+    "DOC-G1#p3": [
+      0.47439,
+      -0.797961
+    ],
+    "DOC-H1": [
+      0.122198,
+      -0.115033
+    ],
+    "DOC-H1#p1": [
+      0.731086,
+      -0.556188
+    ],
+    "DOC-H1#p2": [
+      0.659901,
+      -0.506631
+    ],
+    "DOC-H1#p3": [
+      -0.690149,
+      0.474828
+    ],
+    "DOC-I1": [
+      0.376872,
+      0.760119
+    ],
+    "DOC-I1#p1": [
+      0.556299,
+      0.680901
+    ],
+    "DOC-I1#p2": [
+      0.114074,
+      0.853204
+    ],
+    "DOC-I1#p3": [
+      0.568416,
+      0.706532
+    ],
+    "DOC-J1": [
+      -0.285738,
+      -0.418233
+    ],
+    "DOC-J1#p1": [
+      -0.502165,
+      -0.694432
+    ],
+    "DOC-J1#p2": [
+      -0.664191,
+      -0.288664
+    ],
+    "DOC-J1#p3": [
+      0.186221,
+      -0.32506
+    ],
+    "DOC-K1": [
+      -0.40215,
+      -0.170131
+    ],
+    "DOC-K1#p1": [
+      -0.078056,
+      -0.831028
+    ],
+    "DOC-K1#p2": [
+      -0.531707,
+      0.363948
+    ],
+    "DOC-K1#p3": [
+      -0.733653,
+      0.211262
+    ],
+    "DOC-L1": [
+      0.040055,
+      0.08619
+    ],
+    "DOC-L1#p1": [
+      0.675472,
+      0.472094
+    ],
+    "DOC-L1#p2": [
+      -0.580281,
+      -0.255048
+    ],
+    "DOC-L1#p3": [
+      -0.097629,
+      -0.105018
+    ],
+    "SRC-01": [
+      -0.63809,
+      -0.66735
+    ],
+    "SRC-02": [
+      0.500128,
+      -0.845733
+    ],
+    "SRC-03": [
+      -0.822278,
+      0.234439
+    ]
+  },
+  "passages": {
+    "DOC-A1#p1": {
+      "doc": "DOC-A1",
+      "index": 1,
+      "text": "The Marlow Index is an invented ordering value between zero and twelve that the fictional Harrowgate review desk attaches to every summary request waiting in its queue. It is computed from three inputs: the age of the request in Osprey windows, the Halden tier of the strongest source already attached to the request, and the number of Brindle flags that remain open against it. A higher Marlow Index means the request is opened earlier in the next review sitting. The index describes queue position only and says nothing about the content of the summary."
+    },
+    "DOC-A1#p2": {
+      "doc": "DOC-A1",
+      "index": 2,
+      "text": "The Marlow Index is recomputed for every queued request at the start of each Osprey window. Recomputation by hand between windows is permitted only when the Wren ledger shows that the request has no entry for the previous window, and any hand recomputation must itself be written into the ledger with the initials of the reviewer who performed it. A recomputation that is not in the ledger is treated as if it had not happened."
+    },
+    "DOC-A1#p3": {
+      "doc": "DOC-A1",
+      "index": 3,
+      "text": "The Marlow Index never overrides an open Brindle flag. A request that carries an open flag stays in the holding lane regardless of its index, and it re-enters the ordered queue only after a Lantern review has cleared the flag. Reviewers who find a high-index request in the holding lane must leave it there and note the observation in the ledger rather than moving it forward."
+    },
+    "DOC-B1#p1": {
+      "doc": "DOC-B1",
+      "index": 1,
+      "text": "The Kestrel score is an invented five-band label, written K0 through K4, that describes how many independent approved passages agree with a single line of a draft summary. K0 means that no approved passage supports the line at all. K1 means exactly one passage supports it, K2 means two, K3 means three, and K4 means four or more passages agree. The score belongs to the line, not to the summary as a whole, so one summary can carry several different bands at once."
+    },
+    "DOC-B1#p2": {
+      "doc": "DOC-B1",
+      "index": 2,
+      "text": "The Kestrel score of every line is recomputed every four cycles of the Ferris loop. The reviewer who performs the recomputation records the resulting band in the Wren ledger next to the line identifier, together with the passage identifiers that were counted. A band recorded without its passage identifiers is incomplete and must be re-entered before the next cycle closes."
+    },
+    "DOC-B1#p3": {
+      "doc": "DOC-B1",
+      "index": 3,
+      "text": "A line whose Kestrel score is K0 must be withheld from the released summary. In its place the renderer emits the standard abstention sentence and nothing else, so that a reader can see that a line was considered and set aside rather than silently dropped. This handling follows the fictional Harrowgate working note on unsupported lines and is not to be relaxed at desk level."
+    },
+    "DOC-C1#p1": {
+      "doc": "DOC-C1",
+      "index": 1,
+      "text": "The Thornbury ladder is an invented four-rung escalation path for a summary line whose supporting passages disagree with one another. On rung one the original reviewer re-reads both passages and records whether the disagreement survives a careful reading. On rung two a Brindle flag is raised against the line. On rung three the line is sent to a Lantern review by a second reviewer. On rung four the line is entered into the Corvid audit register for the next audit sitting."
+    },
+    "DOC-C1#p2": {
+      "doc": "DOC-C1",
+      "index": 2,
+      "text": "A line climbs at most one rung of the Thornbury ladder per Osprey window, so that each rung has a full window in which to resolve the disagreement before the next is reached. Skipping a rung is permitted in one situation only: when the passage on the disagreeing side carries Halden tier one, the reviewer may move directly from rung one to rung three without raising a flag, because a tier-one source is treated as background rather than as evidence."
+    },
+    "DOC-C1#p3": {
+      "doc": "DOC-C1",
+      "index": 3,
+      "text": "A line descends the Thornbury ladder only after a Lantern review has closed the disagreement, either by upholding one of the passages or by marking both as background. The descent is written into the Wren ledger as a single entry naming the review that closed the dispute. A line that reaches rung four does not descend until the Corvid audit has reported on it."
+    },
+    "DOC-D1#p1": {
+      "doc": "DOC-D1",
+      "index": 1,
+      "text": "The Osprey window is an invented recurring period during which the fictional review desk is permitted to move requests, recompute indices, and change the rung of a line on the Thornbury ladder. There are three Osprey windows in every cycle of the Ferris loop, and each window is announced in the Wren ledger by a single opening entry that names the window and the reviewer on duty for it."
+    },
+    "DOC-D1#p2": {
+      "doc": "DOC-D1",
+      "index": 2,
+      "text": "Inside an Osprey window the desk performs three actions in a fixed order. First, the Marlow Index of every queued request is recomputed. Second, any Kestrel bands that are due under the Ferris loop schedule are refreshed. Third, the Wren ledger is reconciled so that every line touched during the window has an entry that names the window. The window closes with a closing entry, and no further action of these three kinds is taken until the next window opens."
+    },
+    "DOC-D1#p3": {
+      "doc": "DOC-D1",
+      "index": 3,
+      "text": "Outside an Osprey window nothing moves in the queue or on the ladder, with one exception: a Brindle flag may be raised at any time, inside or outside a window, because a flag records a disagreement that was noticed and delaying that record would hide the disagreement. Clearing a flag, however, waits for a Lantern review and is never done outside a window."
+    },
+    "DOC-E1#p1": {
+      "doc": "DOC-E1",
+      "index": 1,
+      "text": "The Brindle flag is an invented marker attached to a single summary line when two approved passages make statements about that line that cannot both be true. The flag names the line, the two passage identifiers, and the reviewer who noticed the conflict. A flag is never attached to a whole summary and never to a passage; it belongs to the line whose support is in dispute."
+    },
+    "DOC-E1#p2": {
+      "doc": "DOC-E1",
+      "index": 2,
+      "text": "Any reviewer may raise a Brindle flag, and raising one requires no approval. Only a Lantern review may clear a flag, and the person who raised the flag may not perform that review. A cleared flag is not deleted: it remains in the Wren ledger together with the closing note of the review that cleared it, so that a later reader can see both that a disagreement existed and how it was settled."
+    },
+    "DOC-E1#p3": {
+      "doc": "DOC-E1",
+      "index": 3,
+      "text": "The Brindle desk refreshes the Kestrel band of every flagged line every six cycles of the Ferris loop rather than every four, on the reasoning that a flagged line changes support more slowly while its dispute is open. This schedule is recorded here as the desk practice and is known to differ from the handling note for the Kestrel score, which states a four-cycle interval; the difference is itself an open item."
+    },
+    "DOC-F1#p1": {
+      "doc": "DOC-F1",
+      "index": 1,
+      "text": "The Quillon handoff is an invented structured transfer of a partly built summary from one reviewer to another. It carries exactly five fields: the request identifier, the current Marlow Index of the request, the list of open Brindle flags against any of its lines, the identifier of the last Wren ledger entry for the request, and the name of the next Osprey window in which the receiving reviewer is expected to act."
+    },
+    "DOC-F1#p2": {
+      "doc": "DOC-F1",
+      "index": 2,
+      "text": "A Quillon handoff is never performed during an Osprey window, because the window is the period in which indices and bands change and a handoff made while they are changing would carry stale values. The receiving reviewer countersigns the handoff in the Wren ledger before touching the request, and the countersignature names the handoff entry it accepts."
+    },
+    "DOC-F1#p3": {
+      "doc": "DOC-F1",
+      "index": 3,
+      "text": "A Quillon handoff that arrives with any of its five fields missing is not accepted. The request returns to the ordered queue, its Marlow Index is reset to zero, and a ledger entry records that a handoff was refused and which field was absent. The sending reviewer may resend a complete handoff in the next window."
+    },
+    "DOC-G1#p1": {
+      "doc": "DOC-G1",
+      "index": 1,
+      "text": "The Sable checkpoint is an invented release gate that every summary passes before it leaves the fictional review workspace. The checkpoint asks two questions of every line: does the line have an entry in the Wren ledger, and does every passage identifier cited by the line resolve to a passage in the approved corpus. A summary with even one line that fails either question does not pass the checkpoint."
+    },
+    "DOC-G1#p2": {
+      "doc": "DOC-G1",
+      "index": 2,
+      "text": "Sign-off at the Sable checkpoint requires that every passage cited as evidence for a line carries Halden tier two or higher. A tier-one passage may appear in a summary only as background, marked as such, and never as the evidence that supports a line. The checkpoint reviewer records the tier of every cited passage in the sign-off entry."
+    },
+    "DOC-G1#p3": {
+      "doc": "DOC-G1",
+      "index": 3,
+      "text": "A summary that fails the Sable checkpoint returns to the ordered queue with a ledger entry naming the failing line and the question it failed. The request keeps its Marlow Index rather than being reset, because a checkpoint failure is a defect in the summary rather than a defect in the handoff. This treatment follows the fictional Pellam committee minute on release gates."
+    },
+    "DOC-H1#p1": {
+      "doc": "DOC-H1",
+      "index": 1,
+      "text": "The Wren ledger is an invented append-only record kept by the fictional review desk. For every line of every summary it stores the passage identifiers the line cites, the current Kestrel band of the line, the identifier of the Osprey window in which the entry was made, and the initials of the reviewer who made it. Entries about windows, handoffs, flags, and checkpoint results are written into the same ledger so that the whole history of a request can be read in one place."
+    },
+    "DOC-H1#p2": {
+      "doc": "DOC-H1",
+      "index": 2,
+      "text": "Entries in the Wren ledger are never edited and never removed. A correction is made by appending a new entry that names the entry it corrects and states what was wrong. A reader who follows the chain of corrections from the newest entry backwards therefore sees every state the line has been in, and a reader who finds an entry with no later correction may treat it as current."
+    },
+    "DOC-H1#p3": {
+      "doc": "DOC-H1",
+      "index": 3,
+      "text": "A summary line that has no entry in the Wren ledger is not releasable, whatever its Kestrel band and whatever its cited passages say. The Sable checkpoint enforces this rule, and the Corvid audit samples released summaries to confirm that it was enforced."
+    },
+    "DOC-I1#p1": {
+      "doc": "DOC-I1",
+      "index": 1,
+      "text": "The Ferris loop is an invented correction cycle that begins when a summary is released. Readers of the released summary may attach notes to any line. At each cycle the desk reviews the notes received, decides for each note whether it identifies a genuine defect, and for every accepted note appends a correction entry to the Wren ledger. Rejected notes are also recorded, with the reason for rejection, so that a reader can see that the note was considered."
+    },
+    "DOC-I1#p2": {
+      "doc": "DOC-I1",
+      "index": 2,
+      "text": "One cycle of the Ferris loop is three Osprey windows long. The cycle boundary is the closing entry of the third window, and Kestrel recomputation and Marlow recomputation schedules are counted in these cycles. The desk does not shorten a cycle even when no notes have arrived, because the schedule of the other procedures depends on the cycle length being fixed."
+    },
+    "DOC-I1#p3": {
+      "doc": "DOC-I1",
+      "index": 3,
+      "text": "The Ferris loop closes for a summary when two consecutive cycles have passed with no notes attached to any of its lines. A closed loop is recorded in the Wren ledger with a closing entry. A note that arrives after closure reopens the loop, and the count of quiet cycles starts again from zero."
+    },
+    "DOC-J1#p1": {
+      "doc": "DOC-J1",
+      "index": 1,
+      "text": "The Lantern review is an invented second reading of a summary line that carries a Brindle flag. It is performed by a reviewer who did not raise the flag and who did not write the line. The reviewer reads both disputed passages in full, reads the surrounding passages of each document, and writes a short finding that states which passage, if either, the line should rest on."
+    },
+    "DOC-J1#p2": {
+      "doc": "DOC-J1",
+      "index": 2,
+      "text": "A Lantern review has exactly three possible outcomes. The reviewer may uphold one of the two passages, in which case the line is rewritten to rest on that passage alone. The reviewer may mark both passages as background, in which case the line is withheld until a different supporting passage is found. Or the reviewer may send the line to the Corvid audit register when the disagreement cannot be settled from the approved corpus."
+    },
+    "DOC-J1#p3": {
+      "doc": "DOC-J1",
+      "index": 3,
+      "text": "The finding of a Lantern review is entered in the Wren ledger and the Brindle flag on the line is cleared in the same entry. The entry names the flag it clears, the outcome chosen, and the passage upheld if there was one. The line then descends the Thornbury ladder in the next Osprey window."
+    },
+    "DOC-K1#p1": {
+      "doc": "DOC-K1",
+      "index": 1,
+      "text": "The Corvid audit is an invented periodic examination of released summaries. At each audit sitting the auditor draws a sample of released summaries, and for every line in the sample checks that each cited passage identifier resolves to a passage in the approved corpus, that the line has a Wren ledger entry, and that the recorded Kestrel band matches the number of cited passages that actually support the line."
+    },
+    "DOC-K1#p2": {
+      "doc": "DOC-K1",
+      "index": 2,
+      "text": "Any cited passage identifier that does not resolve to an approved passage causes the whole summary to be withdrawn from release. The withdrawal is appended to the Wren ledger with the unresolved identifier named, and the summary re-enters the ordered queue for rebuilding. A summary is not partially withdrawn: one unresolved citation withdraws all of it."
+    },
+    "DOC-K1#p3": {
+      "doc": "DOC-K1",
+      "index": 3,
+      "text": "The auditor writes a short audit note after each sitting. The note reports the number of summaries sampled, the number withdrawn, and the list of unresolved identifiers found, and it is sent to the fictional Pellam committee. The note follows the fictional Orrin desk memorandum on audit reporting and is itself entered in the ledger."
+    },
+    "DOC-L1#p1": {
+      "doc": "DOC-L1",
+      "index": 1,
+      "text": "The Halden tier is an invented three-level label attached to every document in the approved corpus. Tier one is a single note that has not been read by a second reviewer. Tier two is a note that a second reviewer has read and accepted. Tier three is a note that has been read and accepted and that is cited by at least two other documents in the corpus. The tier belongs to the document, and every passage of a document carries the tier of its document."
+    },
+    "DOC-L1#p2": {
+      "doc": "DOC-L1",
+      "index": 2,
+      "text": "The Halden tier is assigned when a document is ingested into the approved corpus. It is raised only after a Lantern review has upheld a passage from the document against a disputed passage, or after the cross-citation count for tier three is reached at a later ingestion. A tier is never lowered except by withdrawal of the document from the corpus."
+    },
+    "DOC-L1#p3": {
+      "doc": "DOC-L1",
+      "index": 3,
+      "text": "The Halden tier is one of the three inputs to the Marlow Index, and it is the input that the Sable checkpoint examines at sign-off, where evidence passages must carry tier two or higher. A reviewer who is unsure of a tier reads it from the ingestion entry in the Wren ledger rather than from memory."
+    }
+  },
+  "provenance": {
+    "relations": [
+      "authored-v1"
+    ],
+    "structural": "ingest-structural-v1"
+  },
+  "counts": {
+    "nodes": {
+      "document": 12,
+      "passage": 36,
+      "concept": 6,
+      "assertion": 4,
+      "source": 3
+    },
+    "edges": {
+      "cites": 7,
+      "contains": 36,
+      "contradicts": 1,
+      "defines": 6,
+      "refines": 10,
+      "supports": 14
+    }
+  }
+}

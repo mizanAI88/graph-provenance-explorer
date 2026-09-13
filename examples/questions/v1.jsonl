@@ -1,0 +1,25 @@
+{"id": "Q01", "question": "What range of values can the Marlow Index take?", "gold": ["DOC-A1#p1"], "answerable": true}
+{"id": "Q02", "question": "When is the Marlow Index recomputed?", "gold": ["DOC-A1#p2", "DOC-D1#p2"], "answerable": true}
+{"id": "Q03", "question": "Can the Marlow Index override an open Brindle flag?", "gold": ["DOC-A1#p3"], "answerable": true}
+{"id": "Q04", "question": "How many bands does the Kestrel score have?", "gold": ["DOC-B1#p1"], "answerable": true}
+{"id": "Q05", "question": "How often is the Kestrel score recomputed?", "gold": ["DOC-B1#p2", "DOC-E1#p3"], "answerable": true}
+{"id": "Q06", "question": "What happens to a summary line with Kestrel score K0?", "gold": ["DOC-B1#p3"], "answerable": true}
+{"id": "Q07", "question": "What are the four rungs of the Thornbury ladder?", "gold": ["DOC-C1#p1"], "answerable": true}
+{"id": "Q08", "question": "When may a rung of the Thornbury ladder be skipped?", "gold": ["DOC-C1#p2"], "answerable": true}
+{"id": "Q09", "question": "How many Osprey windows are there in one cycle of the Ferris loop?", "gold": ["DOC-D1#p1", "DOC-I1#p2"], "answerable": true}
+{"id": "Q10", "question": "What is allowed outside an Osprey window?", "gold": ["DOC-D1#p3"], "answerable": true}
+{"id": "Q11", "question": "Who may raise a Brindle flag and who may clear it?", "gold": ["DOC-E1#p2"], "answerable": true}
+{"id": "Q12", "question": "Which five fields does a Quillon handoff carry?", "gold": ["DOC-F1#p1"], "answerable": true}
+{"id": "Q13", "question": "What happens when a Quillon handoff arrives with a field missing?", "gold": ["DOC-F1#p3"], "answerable": true}
+{"id": "Q14", "question": "What two questions does the Sable checkpoint ask of every line?", "gold": ["DOC-G1#p1"], "answerable": true}
+{"id": "Q15", "question": "Which Halden tier is required for evidence passages at Sable checkpoint sign-off?", "gold": ["DOC-G1#p2", "DOC-L1#p3"], "answerable": true}
+{"id": "Q16", "question": "How is a correction made to the Wren ledger?", "gold": ["DOC-H1#p2"], "answerable": true}
+{"id": "Q17", "question": "When does the Ferris loop close for a summary?", "gold": ["DOC-I1#p3"], "answerable": true}
+{"id": "Q18", "question": "Who performs a Lantern review?", "gold": ["DOC-J1#p1"], "answerable": true}
+{"id": "Q19", "question": "What does the Corvid audit do with a cited passage identifier that does not resolve?", "gold": ["DOC-K1#p2"], "answerable": true}
+{"id": "Q20", "question": "What are the three levels of the Halden tier?", "gold": ["DOC-L1#p1"], "answerable": true}
+{"id": "U01", "question": "What is the Pelican rate and how is it computed?", "gold": [], "answerable": false}
+{"id": "U02", "question": "How many seats are on the Bramble panel?", "gold": [], "answerable": false}
+{"id": "U03", "question": "What is the maximum file size accepted by the Gullwing uploader?", "gold": [], "answerable": false}
+{"id": "U04", "question": "What colour is the Marlow Index badge printed in?", "gold": [], "answerable": false}
+{"id": "U05", "question": "Which staffing roster covers overnight desk duty?", "gold": [], "answerable": false}

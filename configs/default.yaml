@@ -1,0 +1,34 @@
+# Default configuration for graph-provenance-explorer.
+# Mirrors DEFAULT_CONFIG in src/graph_provenance_explorer/config.py; a test asserts they agree.
+# Every value here is an implementation setting chosen on the authored fixture,
+# not a result. No absolute paths, no secrets.
+seed: 42
+corpus:
+  source_id: synthetic-corpus-v1
+  version: v1
+bm25:
+  k1: 1.5
+  b: 0.75
+vector:
+  dims: 512
+retrieval:
+  seed_k: 3            # lexical seeds for graph expansion
+  top_k: 5             # passages returned per query
+  hops: 1              # passage-level hops from each seed
+  bridge_via: [concept, assertion, source]   # non-passage nodes crossed inside one hop
+  edge_weights:        # bonus added to lexical score, averaged over the path
+    supports: 1.0
+    refines: 0.8
+    defines: 0.6
+    cites: 0.5
+    contradicts: 0.4
+    contains: 0.0
+abstention:            # top score below this renders the abstention sentence
+  lexical: 3.0         # chosen so that no answerable fixture question abstains
+  graph: 3.0
+  vector: 0.2
+layout:
+  seed: 7
+  iterations: 100
+evaluation:
+  k_values: [1, 3, 5]

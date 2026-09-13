@@ -1,0 +1,30 @@
+schema_version: 1
+project_id: graph-provenance-explorer
+run_id: 20260913T123130Z-graph-provenance-explorer-demo
+status: completed
+mode: demo
+git_commit: null
+data:
+  source_id: synthetic-corpus-v1
+  version: v1
+  split_manifest_hash: f6b4516fd98cdb0e11ef1809c9bfff293e43342b63968969164ef0696b305f43
+  sample_counts:
+    train: 0
+    val: 0
+    test: 25
+  questions:
+    answerable: 20
+    unanswerable: 5
+  relations_hash: 9f6e246ae3c9f3bcb733d7a70334ab51057e786f17d4a8d42c1b84d3858b52af
+  documents: 12
+  passages: 36
+configuration_hash: 0f7e2c41afe2bbb92340578c72237aa6375c7779ae8aa2081f939fc0d038a949
+seed: 42
+environment:
+  lockfile_hash: null
+  device: cpu
+checkpoint_hash: null
+metrics_file: metrics.json
+predictions_file: answers.jsonl
+started_at: '2026-09-13T12:31:30+00:00'
+finished_at: '2026-09-13T12:31:30+00:00'

@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "graph-provenance-explorer"
+version = "0.1.0"
+description = "Source-preserving graph retrieval and inspectable, source-linked summary construction over a small authored synthetic corpus."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "MD Mizanur Rahman"}]
+dependencies = [
+    "networkx>=3.0",
+    "numpy>=1.24",
+    "pyyaml>=6.0",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
+
+[project.scripts]
+graph-provenance-explorer = "graph_provenance_explorer.__main__:main"
+
+[project.urls]
+Repository = "https://github.com/mizanAI88/graph-provenance-explorer"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

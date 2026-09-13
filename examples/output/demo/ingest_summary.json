@@ -1,0 +1,40 @@
+{
+  "project_id": "graph-provenance-explorer",
+  "corpus_dir": "examples/corpus/v1",
+  "documents": 12,
+  "passages": 36,
+  "word_counts": {
+    "DOC-A1": 235,
+    "DOC-B1": 208,
+    "DOC-C1": 225,
+    "DOC-D1": 212,
+    "DOC-E1": 212,
+    "DOC-F1": 185,
+    "DOC-G1": 190,
+    "DOC-H1": 196,
+    "DOC-I1": 194,
+    "DOC-J1": 196,
+    "DOC-K1": 180,
+    "DOC-L1": 203
+  },
+  "nodes": {
+    "document": 12,
+    "passage": 36,
+    "concept": 6,
+    "assertion": 4,
+    "source": 3
+  },
+  "nodes_total": 61,
+  "edges": {
+    "cites": 7,
+    "contains": 36,
+    "contradicts": 1,
+    "defines": 6,
+    "refines": 10,
+    "supports": 14
+  },
+  "edges_total": 74,
+  "relations_provenance": [
+    "authored-v1"
+  ]
+}

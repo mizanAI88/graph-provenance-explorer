@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+type: software
+title: graph-provenance-explorer
+authors:
+  - family-names: Rahman
+    given-names: MD Mizanur
+version: 0.1.0
+date-released: "2026-09-13"
+license: MIT
+repository-code: https://github.com/mizanAI88/graph-provenance-explorer
+references:
+  - type: article
+    title: "ClinicGraphRAG: knowledge graph and LLM retrieval-augmented generation for reliable clinical decision support summaries"
+    doi: 10.1007/s44163-026-01492-w
+    journal: Discover Artificial Intelligence
+    year: 2026
