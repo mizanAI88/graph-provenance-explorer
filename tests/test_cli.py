@@ -88,7 +88,16 @@ def test_committed_layout_matches_a_fresh_run(tmp_path):
     committed = REPO / "examples" / "output" / "graph_layout.json"
     assert committed.exists()
     assert main(["export-graph", "--out", str(tmp_path)]) == EXIT_OK
-    assert json.loads(committed.read_text(encoding="utf-8")) == json.loads((tmp_path / "graph_layout.json").read_text(encoding="utf-8"))
+    committed_layout = json.loads(committed.read_text(encoding="utf-8"))
+    fresh_layout = json.loads((tmp_path / "graph_layout.json").read_text(encoding="utf-8"))
+    # Same seed and same node set are exact requirements; coordinates may differ
+    # in the third decimal between numpy builds (spring layout arithmetic), so
+    # they are compared with a tolerance rather than bit for bit.
+    assert committed_layout["seed"] == fresh_layout["seed"]
+    assert set(committed_layout["positions"]) == set(fresh_layout["positions"])
+    for node, (x, y) in committed_layout["positions"].items():
+        fx, fy = fresh_layout["positions"][node]
+        assert abs(x - fx) < 0.02 and abs(y - fy) < 0.02, node
 
 
 def test_demo_exits_zero_and_writes_answers_markdown(tmp_path):
